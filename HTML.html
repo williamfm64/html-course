@@ -1,0 +1,103 @@
+ESTRUTURA DE UMA PÁGINA WEB
+		
+		-Novo arquivo: projeto.html
+				Abrir com o navegador
+		-Estrutura básica da página web:
+
+				<!DOCTYPE html>
+				<html>
+				<head>
+						<title>Meu site</title>
+						<meta charset="utf-8">
+				</head>
+				<body>
+						Meu primeiro site<br>
+
+						<h1>Sobre a empresa</h1>
+						<p>orem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit. Fusce dictum tristique mauris non scelerisque. Quisque <u>pellentesque</u> mi eget blandit condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+
+						<hr>
+
+						<h2>Funcionários</h2>
+						<p>orem ipsum dolor sit amet, <em>consectetur</em> adipiscing elit. Fusce dictum tristique mauris non scelerisque. Quisque pellentesque mi eget <strike>blandit</strike> condimentum.</p>
+
+						<hr>
+
+						<h2>Lista de cursos</h2>
+						<ul type="square">
+							<li>Html</li>
+							<li>Css</li>
+							<li>Java</li>
+						</ul>
+
+						<hr>
+
+						<h2>Lista de aulas</h2>
+						<ol type="1">
+							<li>Aula</li>
+							<li>Aula</li>
+							<li>Aula</li>
+						</ol>
+
+				</body>
+				</html>
+
+
+TAGS HTML
+	Aula 9
+		<b> pagina </b>		= Negrito (bold)
+		<!DOCTYPE html>		= Define o tipo de documento html a ser utilizado
+		<html> </html> 		= Define o inicio e fim da estrutura html
+		<head> </head> 		= Inserir estruturas que não aparecerão no site necessariamente
+		<body background=""> </body>	= Configuramos informações que irão aparecer no
+										  site, background pode ser uma imagem ou color
+		<title> </title>	= Define o nome da página no navegador
+
+	Aula 10
+		<meta charset="utf-8">		= Define a codficação da página web (utilizar acentos)
+		<br> 				= Quebra de linha
+		<h1> sobre </h1>	= Tags de formatação de texto, utilizadas para definir títulos
+							  (h1 maior, h6 menor)
+
+	Aula 11
+		<p>	</p>			= Cria um parágrafo, agrupando textos e deixando espaçados
+		<hr>				= Horizontal Rule, cria uma linha para separar elementos no site
+
+	Aula 12
+		<strong> </strong>	= Negrito
+		<em> </em>			= Itálico (emphasis)
+		<u> </u>			= Underline
+		<strike> </strike> 	= Texto riscado
+
+	Aula 13
+		<ul type=""> </ul>	= Unordered List, cria uma lista (type = circle, square, disc)
+		<li> </li>			= List Item, item da lista
+		<!-- -->			= Comentários
+		<ol type=""> </ol>	= Ordered List, cria uma lista ordenada (type = 1, A, a, I, i)
+
+	Aula 16
+		<img src="" width="" height="">		= Insere imagens na página, src é o endereço,
+							local do arquivo, width é largura e height é altura, em px ou %
+
+	Aula 17
+		<a href="">link</a>	= Anchor, cria um link. href é o endereço da página
+
+	Aula 18
+		<table> </table> 	= Estrutura da tabela (border="2", width="400 ou 100%")
+		<tr> </tr>			= Table rule, Cria uma linha na tabela
+		<td> </td>			= Table Data, Adiciona dados na linha (colspan, rowspan)
+		<th> </th>			= Table Header, diferencia os títulos dos conteúdos da 
+							  tabela
+
+	Aula 20 e 21
+		<form action=""> </form>		= Cria um formulário, action envia dados para o php
+		<input type="">		= Entrada de dados, type é o tipo, name o endereço
+							Type = text, password, button, submit, radio, checkbox
+							(Nomes iguais para marcação única no type radio, value para definir o atributo)
+							Value = Texto que aparecerá no botão
+		<select> </select>		= Usado para selecionar um item em uma lista grande
+		<option>RS</option>		= Opções para o select
+		<textarea></textarea>	= Caixa de texto maior
+
+	Aula 22
+		Entities html 		= Escreve na tela caracteres especiais
